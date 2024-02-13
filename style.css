@@ -1,0 +1,97 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+ /* ### Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+
+  
+/* ### Primary */
+  --Green: hsl(75, 94%, 57%);
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    background: var(--Off-Black);
+    color: var(--White);
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 1em;
+}
+
+p {
+    margin-top: 2em;
+}
+
+img {
+    border-radius: 50%;
+    width: 20%;
+    cursor: pointer;
+}
+
+button {
+    padding: 1em 2em; 
+    border-radius: .5em;
+    border: none;
+    font-weight: 600;
+    background-color: var(--Grey);
+    color: var(--White);
+}
+
+
+.main-container {
+    background: var(--Dark-Grey);
+    width: 80%; /* Adjust width to take up more space on smaller screens */
+    max-width: 380px; /* Set a maximum width to prevent the container from becoming too wide */
+    margin: 5em auto;
+    padding: 2em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em;
+}
+
+
+.address {
+    color: var(--Green);
+    font-weight: 600;
+    margin-top: .6em;
+}
+
+.link-btn {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: .9em;
+    width: 80%;
+}
+
+button:hover {
+    background: var(--Green);
+    color: var(--Grey);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .lint-btn {
+        width: 50%;
+        gap: 2em;
+    }
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

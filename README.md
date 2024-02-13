@@ -4,16 +4,16 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#Social Links Profile)
-  - [Screenshot](./assets/images/Screenshot%20(13).png)
-  - [Links](#links)
-- [My process](#Done)
-  - [Built with](#HTML, CSS)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#W3SCHOOLS)
-- [Author](#CLOUD)
-- [Acknowledgments](#acknowledgments)
+- [Overview]
+  - [The challenge]
+  - [Screenshot]
+  - [Links]
+- [My process]
+  - [Built with]
+  - [What I learned]
+  - [Useful resources]
+- [Author]
+- [Acknowledgments]
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -39,8 +39,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Olamiposi-cloud-coder/Social_Link_Profile.git)
+- Live Site URL: [Add live site URL here](https://social-link-profile-teal.vercel.app/)
 
 ## My process
 
